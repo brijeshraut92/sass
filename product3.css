@@ -1,0 +1,42 @@
+@media (max-width: 992px) {
+  .custom-container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    overflow-x: auto;
+    width: auto;
+    border-style: solid;
+  }
+  .row-custom {
+    margin: auto;
+    max-width: 300px;
+  }
+
+  .row-custom .custom-col {
+    background-color: #598ac6;
+    height: 200px;
+    width: 300px;
+    border-style: solid;
+    margin: 20px;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .horizontal-scroll {
+    display: flex !important;
+    gap: 5px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .horizontal-scroll:-webkit-scrollbar {
+    display: none;
+  }
+  .horizontal-scroll__item {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex: 0 0 320px;
+    justify-content: center;
+    scroll-snap-align: start;
+  }
+}

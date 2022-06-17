@@ -1,0 +1,64 @@
+$color_1: var(--oxford-blue-354e57);
+$background-color_1: #f7f7f7;
+
+.image-tiles {
+  padding-bottom: 110px;
+  background-color: $background-color_1;
+  .title-dec {
+    max-width: 537px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 59px;
+    h4 {
+      padding-bottom: 12px;
+    }
+    p {
+      font-size: var(--font-size-16);
+      line-height: var(--line-spacing-24);
+    }
+  }
+  .column-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 912px;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card {
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 80px;
+    p {
+      font-size: var(--font-size-12);
+      padding-top: 12px;
+    }
+  }
+  h4 {
+    color: $color_1;
+    font-weight: bold;
+  }
+  h6 {
+    color: $color_1;
+    font-weight: bold;
+  }
+  p {
+    color: $color_1;
+  }
+}
+@media screen and (max-width: 768px) {
+  .image-tiles {
+    padding-bottom: 50px;
+    .card {
+      width: 100%;
+      margin-bottom: 60px;
+    }
+    .title-dec {
+      padding-bottom: 65px;
+      h4 {
+        padding-bottom: 30px;
+      }
+    }
+  }
+}

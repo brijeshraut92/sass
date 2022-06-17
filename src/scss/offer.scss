@@ -1,0 +1,19 @@
+$color_1: #f7f5e6;
+$background-color_1: #a67744;
+
+.offer-banner {
+  background-color: $background-color_1;
+  padding: 0;
+  p {
+    color: $color_1;
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .offer-banner {
+    p {
+      font-size: var(--font-size-14);
+    }
+  }
+}

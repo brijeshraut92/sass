@@ -1,0 +1,16 @@
+.offer-banner{
+    background-color: var(--cape-palliser-a67744);
+    padding: 0;
+  }
+  
+  .offer-banner p{
+    color: var(--beige-f7f5e6);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  @media  screen and (max-width: 768px) {
+    .offer-banner p{
+      font-size: var(--font-size-14);
+    }
+  }

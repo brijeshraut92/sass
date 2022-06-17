@@ -1,0 +1,29 @@
+$color_1: var(--oxford-blue-354e57);
+
+.secondry-banner {
+  border: 1px solid var(--como-547665);
+  .wrapper {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+  }
+  h4 {
+    color: $color_1;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: var(--line-spacing-34);
+  }
+  p {
+    color: $color_1;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secondry-banner {
+    .wrapper {
+      margin: 20px auto;
+      padding: 10px 50px;
+    }
+  }
+}
